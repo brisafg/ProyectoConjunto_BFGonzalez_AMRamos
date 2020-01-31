@@ -62,19 +62,6 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "# *Resumen artículo 2: Python has brought computer programming to a vast new audience.*\n",
-    "\n",
-    "En diciembre de 1989, Guido van Rossum crea su propio lenguaje de programación, debido a la complejidad de otros programas, Guido, se enfoca en hacerlo sencillo, rápido y fácil de leer; así es como se crea Python, que fue nombrado en honor a los comediantes británicos Monty Python.\n",
-    "Luego de que su programa tuviera un gran impacto en la sociedad, van Rossum sintió mucha presión ya que jamás pensó llegar a ese nivel de reconocimiento, por lo tanto un 12 de Julio decide renunciar y dejar el programa en manos de sus aficionados que se hacen llamar \"Pythonistas\". \n",
-    "Se habla de que Python no es perfecto, existen otros programas como C y C++ que aunque son de un nivel más \"bajo\" te permiten mejor control en los procesadores, etc. pero lo que hace a Python especial es la sencillez con la que se puede codificar, ya que a su vez facilita el aprendizaje y la mejora de habilidades informáticas. \n",
-    "Cada persona va a usar el programa que mejor se le acomode a lo que busca, dependiendo de sus intenciones sabrá si Python es su mejor opción.\n",
-    "Zack Sims, el jefe de la academia de codificación del progama afirma que la mayoria de la gente que utiliza python está en busca de mejorar sus habilidades y aprender lo básico."
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
     "# *Figura 5*"
    ]
   },
@@ -82,37 +69,6 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "1. La fórmula del rectángulo se obtiene al interpolar a $f(x)$ por medio del polinomio constante $p_0(x)=f(\\frac{a+b}{2})$.\n",
-    "\n",
-    "$$\\int_{a}^{b} f(x) dx \\approx (b-a)f(\\frac{a+b}{2})=R(f).$$\n",
-    "\n",
-    "2. La fórmula del trapecio se obtiene al interpolar a $f$ por medio de un polinomio lineal $p_1(x)=\\alpha x+ \\beta$ que satisfaga $f(a)=p_1(a)$, y $f(b)=p_1(b)$. Determinar el polinomio lineal es equivalente a resolver un sistema de ecuaciones lineales para $\\alpha$ y $\\beta$ cuya solución es \n",
-    "\n",
-    "$$\\alpha = \\frac{f(b)-f(a)}{b-a} \\ \\beta = \\frac{f(b)a-f(a)b}{b-a}$$\n",
-    "\n",
-    "Al integrar $p_1(x)$ en el intervalo $[a,b]$ se obtiene la regla del trapecio con $h=b-a$\n",
-    "\n",
-    "$$\\int_{a}^{b} f(x) dx \\approx \\int_{a}^{b} p_1(x) dx = \\frac{h}{2}(f(a)+f(b))=T(f).$$\n",
-    "\n",
-    "El error está dado por\n",
-    "\n",
-    "$$\\int_{a}^{b} f(x)dx-T(f)=-\\frac{h^3}{12}(f''(\\eta)), \\ a<\\eta<b.$$\n",
-    "\n",
-    "3. Por último al integrar el polinomio cuadrático que interpola a $f$ en $x=a, \\ x=\\frac{a+b}{2}$. y $x=b$ se obtiene la regla de Simpson con $h=\\frac{b-a}{2}$\n",
-    "\n",
-    "$$\\int_{a}^{b} f(x) dx \\approx \\int_{a}^{b}p_2(x)dx=\\frac{h}{3}(f(a)+4f(a+h)+f(b))=S(f).$$\n",
-    "\n",
-    "El error que se comete al usar Simpson es\n",
-    "\n",
-    "$$\\int_{a}^{b}f(x)dx-S(f)=\\frac{h^5}{90}(f^{(4)}(\\eta)), \\ a<\\eta<b.$$"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "# LaTex\n",
-    "\n",
     "1. La fórmula del rectángulo se obtiene al interpolar a $f(x)$ por medio del polinomio constante $p_0(x)=f(\\frac{a+b}{2})$.\n",
     "\n",
     "$$\\int_{a}^{b} f(x) dx \\approx (b-a)f(\\frac{a+b}{2})=R(f).$$\n",
